@@ -24,5 +24,7 @@ def grafica ( n, m, count, mcd ):
     # Plot.
     plt.plot ( mcd, _t, 'bs', label = "g( n ) = ( 5/3 ) log ( n )" )
     plt.plot ( mcd, t, 'g^', label = "E( n ) = log ( n )" )
+    plt.plot ( mcd, _t, 'r--', label = "g( n ) = ( 5/3 ) log ( n )" )
+    plt.plot ( mcd, t, 'b--', label = "E( n ) = log ( n )" )
     plt.legend ( loc = "lower right" )
     plt.show ( )

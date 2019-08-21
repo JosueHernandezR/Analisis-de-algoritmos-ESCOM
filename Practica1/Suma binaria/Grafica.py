@@ -26,6 +26,8 @@ def graph ( size, time ):
     # Gráfico.
     plt.plot ( n, _t, 'bs', label = "g( n ) = ( 5/3 )n" )
     plt.plot ( n, t, 'g^', linewidth = 3, label = "E( n ) = n" )
+    plt.plot ( n, _t, 'r--', label = "g( n ) = ( 5/3 )n" )
+    plt.plot ( n, t, 'b--', linewidth = 3, label = "E( n ) = n" )
     plt.legend ( loc = "lower right" )
     plt.show ( )
 
