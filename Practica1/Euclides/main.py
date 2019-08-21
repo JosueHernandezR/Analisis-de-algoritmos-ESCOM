@@ -1,3 +1,12 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Algoritmo de Euclides
+# Este archivo contiene las dos formas de resolver la práctica
+# La opcion 1 es hacerlo de manera aleatoria
+# La opcion 2 es hacerlo mediante la introduccion de numeros de fibonacci
+
+
 from euclides import algoritmo
 from random import random
 from grafica import grafica

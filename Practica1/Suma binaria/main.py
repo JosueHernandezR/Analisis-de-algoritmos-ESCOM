@@ -1,3 +1,13 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Suma Binaria
+# Este es el archivo principal donde se ejecutan las funciones
+# hechas en otros archivos para una mejor legibilidad
+
+
+
+
 from SumaBinaria import binarysum
 from random import random
 from Grafica import graph

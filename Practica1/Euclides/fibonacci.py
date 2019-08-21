@@ -1,3 +1,7 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Algoritmo de Euclides
 # Generador Fibonacci.
 def fibonacci ( ):
     a, b = 1, 1

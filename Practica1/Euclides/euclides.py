@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Algoritmo de Euclides
+# Este archivo contiene el algoritmo de Euclides con el MCD
+
 def algoritmo ( n, m ):
     # Algoritmo euclidiano: encuentra el divisor común más grande (mcd).
     count, mcd = 1, [ ]

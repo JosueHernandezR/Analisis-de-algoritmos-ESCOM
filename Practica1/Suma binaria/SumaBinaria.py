@@ -1,3 +1,11 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Suma Binaria
+# En este archivo viene el algoritmo de Suma Binaria
+
+
+
 def binarysum ( a, b ):
     i, carry, c, count = ( len ( a ) - 1 ), 0, [ ], 1
     # Evalúa ambas listas binarias ('a' y 'b') y desplace desde (n - 1) hasta 0 y suma los números en la posición 'i', el resultado se almacena en 'c'.

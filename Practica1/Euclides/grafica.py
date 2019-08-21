@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 1 Algoritmo de Euclides
+# En este archivo se crean las funciones para el graficado del algoritmo
+
 import matplotlib.pyplot as plt
 import numpy as np
 
