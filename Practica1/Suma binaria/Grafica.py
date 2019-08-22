@@ -19,7 +19,8 @@ def graph ( size, time ):
     plt.xlim ( 0, size )
     plt.ylim ( 0, time )
     # Función propuesta: g ( n ) = ( 5/3 )n.
-    _t = list ( map ( ( lambda x: x * 5/3 ), t ) )
+  
+  
     # Nombres de los ejes.
     plt.xlabel ( "Tamaño ( n )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
     plt.ylabel ( "Tiempo ( t )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
