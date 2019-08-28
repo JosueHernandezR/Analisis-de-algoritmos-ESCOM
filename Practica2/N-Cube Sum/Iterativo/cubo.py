@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 2 Suma de las primeras n cúbicas "Iterativo"
+#Este es el algoritmo de las sumas de forma iterativa
+
 def cubo ( n ):
     _sum, count, cubelist = 0, 1, [ ]
     # Rango: Desde 1 <= i <= n.
