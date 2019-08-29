@@ -24,11 +24,15 @@ def graph ( fibo, parameters, n ):
     _t = list ( map ( ( lambda x: x * ( 5 / 2 ) ), t ) )
     print(_t)
     # Nombre de los ejes
-    plt.ylabel ( "Time ( t )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
-    plt.xlabel ( "Fibonacci ( f )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
+    plt.ylabel ( "Time ( t )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
+    plt.xlabel ( "Fibonacci ( f )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
     # Plot.
-    plt.plot ( f, t, "#778899", linewidth = 3, label = "T( n ) = ( Φ^n )" )
+    plt.plot ( f, t, "ro", label = "T( n ) = ( Φ^cd ..n )" )
     plt.plot ( f, _t, "b^", label = "g( n ) = ( 5/2 )( Φ^n )" )
-    plt.plot ( f, _t, "r--", label = "g( n ) = ( 5/2 )( Φ^n )" )
+
+
+
+    plt.plot ( f, _t, "b--")
+    plt.plot ( f, t, "r--")
     plt.legend ( loc = "upper left" )
     plt.show ( )
