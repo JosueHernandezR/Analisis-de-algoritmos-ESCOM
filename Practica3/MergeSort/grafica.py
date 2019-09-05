@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 3 Divide y vencerás
+# Estas son las funciones para graficar cada algoritmo, tanto merge como merge sort
+
 import matplotlib.pyplot as plt
 import numpy as np
 
