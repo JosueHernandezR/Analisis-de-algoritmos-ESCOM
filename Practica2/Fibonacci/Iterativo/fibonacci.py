@@ -15,4 +15,5 @@ def fibonacci ( n ):
         a = fibo
         count += 1
     count += 1
+    print("contador: ", count)
     return fibo, count, f
