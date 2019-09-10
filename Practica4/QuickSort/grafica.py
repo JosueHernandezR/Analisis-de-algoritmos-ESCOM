@@ -72,7 +72,7 @@ def labels ( ):
 def graph ( ):
     labels ( )
     # Window title.
-    plt.figure ( "Quicksort Algorithm", figsize = ( 14, 7 ) )
+    plt.figure ( "Algoritmo Quicksort", figsize = ( 14, 7 ) )
 
     # Right graph: Temporal complexity of Partition.
     plt.subplot ( 1, 2, 2 )
@@ -83,8 +83,8 @@ def graph ( ):
     # Parameter Size ( n ).
     _s = list ( map ( lambda x: x [ 0 ] + 1, gb._parameters ) )
     # Axes names.
-    plt.xlabel ( "Size ( n )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
-    plt.ylabel ( "Partition Time ( t )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
+    plt.xlabel ( "Tamaño ( n )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
+    plt.ylabel ( "Tiempo Partition ( t )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
     # Plot.
     plt.plot ( _s, _t, "#778899", linewidth = 3, label = function1 )
     plt.plot ( _s, g1, "#800000", linestyle = "--", label = proposed1 )
@@ -99,8 +99,8 @@ def graph ( ):
     # Parameter Size ( n ).
     s = list ( map ( lambda x: x [ 0 ], gb.parameters ) )
     # Axes names.
-    plt.xlabel ( "Size ( n )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
-    plt.ylabel ( "Quicksort Time ( t )", color = ( 0.3, 0.4, 0.6 ), family = "cursive", size = "large" )
+    plt.xlabel ( "Size ( n )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
+    plt.ylabel ( "Quicksort Time ( t )", color = ( 0.3, 0.4, 0.6 ), size = "large" )
     # Plot.
     plt.plot ( s, t, "#778899", linewidth = 3, label = function2 )
     plt.plot ( s, g2, "#800000", linestyle = "--", label = proposed2 )

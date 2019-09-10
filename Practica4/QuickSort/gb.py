@@ -1,4 +1,4 @@
-"" "
+"""
             MÓDULOS DE VARIABLES GLOBALES
     _parameters: Lista que almacena los parámetros de los puntos a trazar 
         para Partition. Cada elemento es una tupla que almacena la longitud 
@@ -19,7 +19,7 @@
         la función propuesta, dependiendo de si el usuario selecciona 
         el peor o el caso al azar.
     n: Lista para ordenar.
-"" "
+"""
 
 _parameters = [ ( 0, 6 )]
 parameters = [ ]
