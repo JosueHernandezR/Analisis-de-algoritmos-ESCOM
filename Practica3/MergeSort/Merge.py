@@ -1,3 +1,10 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 3 Divide y vencerás
+# Este es el algoritmo usado en merge, ya que los datos que devuelve no son los mismos usados en merge sort
+# Esto lo hice para fines prácticos y ahorro de tiempo
+
 import globalvariables as gb
 
 def onlymerge(izq, der):

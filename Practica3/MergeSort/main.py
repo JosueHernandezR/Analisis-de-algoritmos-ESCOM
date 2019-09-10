@@ -1,9 +1,19 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 3 Divide y vencerás
+# Este es el archivo principal
+# Cree un menú para poder elegir cual de los dos algoritmos ejecutar para hacerlo un poco mas sencillo
+# Todos los datos son aleatorios
+# En el algoritmo de merge, cree dos listas a parte, cada una con diferentes datos y tamaños, para que
+# el algoritmo merge trabaje bajo la hipotesis de que lee una lista pero con datos previamente ordenados
+# Para evitar cualquier problema, he decidido hacer eso por mi cuenta para que solo el algoritmo se encargue de ordenar las 2 listas
+
 from MergeSort import *
 from Merge import *
 from grafica import *
 import random
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 def menu():
     ans = 0
