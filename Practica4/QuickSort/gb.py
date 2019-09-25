@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 4 Divide y vencerás
+
+
 """
             MÓDULOS DE VARIABLES GLOBALES
     _parameters: Lista que almacena los parámetros de los puntos a trazar 

@@ -1,3 +1,8 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 4 Divide y vencerás
+
 from quicksort import quicksort
 from grafica import graph
 from menu import menu

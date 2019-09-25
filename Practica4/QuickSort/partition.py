@@ -1,3 +1,8 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 4 Divide y vencerás
+
 import gb
 
 def partition ( n, p, r ):
@@ -23,8 +28,8 @@ def partition ( n, p, r ):
     gb._time += 1
     n [ r ] = aux
     gb._time += 1
-    # Sum the temporal complexity of Partition '_time' to the temporal
-    # complexity of Quicksort 'time'.
+    # Suma la complejidad temporal de la Partición '_time' a la temporal
+    # complejidad de Quicksort 'time'.
     gb.time += gb._time
     if ( r > gb._parameters [ len ( gb._parameters ) - 1 ][ 0 ] ):
         gb._parameters.append ( ( r, gb._time ) )
