@@ -1,3 +1,10 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 5 Divide y vencerás
+
+
+
 
 """
 Descripción: este módulo solo almacena las variables globales del programa:

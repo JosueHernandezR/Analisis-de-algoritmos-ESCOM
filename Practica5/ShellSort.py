@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 5 Divide y vencerás
+
+
 import global_variables as gb
 
 class ShellSort:
