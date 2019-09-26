@@ -12,7 +12,7 @@ def main ( ):
     # fibonacci (n): devuelve el número de fibonacci, el contador que lleva a 
     # encuentrar ese número y una lista de los números de fibonacci antes de 'fibo'.
     fibo, count, f = fibonacci ( n )
-    print(count)
+    print(f)
     print ( "\n\tFibonacci ( ", n, " ): ", fibo, "\n" )
     graph ( count, fibo, f, n )
 main ( )
