@@ -1,6 +1,6 @@
 import global_variables as gb
 
-class Cocktail:
+class CocktailSort:
     # Clase constructor.
     def __init__ ( self, dimensions, start, end ):
         assert len ( dimensions ) > 1

@@ -1,6 +1,6 @@
 import global_variables as gb
 
-class Shell:
+class ShellSort:
     # Class constructor.
     def __init__ ( self, dimensions ):
         assert len ( dimensions ) > 1
