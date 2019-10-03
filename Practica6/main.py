@@ -1,11 +1,16 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 6 Divide y vencerás
+
 from maximo_subarreglo import *
 import variablesglobales as gb
 import random as rnd
 from plot import *
 
-__FORMAT_1 = "\n\n\tBrute-Force Maximum Subarray Algorithm:"
-__FORMAT_2 = "\n\n\tMaximum Crossing Subarray Algorithm:"
-__FORMAT_3 = "\n\n\tMaximum Subarray Algorithm:"
+__FORMAT_1 = "\n\n\tMaximo subarreglo: algoritmo de fuerza bruta"
+__FORMAT_2 = "\n\n\tMaximo subarreglo: algoritmo de cruce"
+__FORMAT_3 = "\n\n\tMaximo subarreglo: algoritmo de recurrencia"
 
 def printer ( A, max_left, max_right, result, flag ):
     if ( flag == 1 ):

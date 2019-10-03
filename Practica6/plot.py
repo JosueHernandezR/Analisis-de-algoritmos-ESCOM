@@ -1,9 +1,15 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 6 Divide y vencerás
+
 """
 Descripción: Este módulo traza la complejidad temporal de los 3 algoritmos.
 """
 
 import matplotlib.pyplot as plt
 import variablesglobales as gb
+
 import numpy as np
 
 def initialize ( ):

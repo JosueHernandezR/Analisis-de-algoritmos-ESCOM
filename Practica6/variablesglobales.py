@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 6 Divide y vencerás
+
+
 """
 Descripción: este módulo solo almacena las variables globales del programa:
         parámetros_1: Lista que almacena los parámetros de los puntos a trazar
