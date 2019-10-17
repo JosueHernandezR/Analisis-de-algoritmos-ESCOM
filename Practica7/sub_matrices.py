@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 7 Strassen
+
+
 """
 Descripción: implementa dos métodos:
      split_in_sub_matrices: divide las matrices de entrada en submatrices de tamaño n / 2 x n / 2.

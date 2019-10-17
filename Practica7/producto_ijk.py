@@ -1,3 +1,8 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 7 Strassen
+
 import variables_globales as gb
 
 def producto_ijk ( A, B ):

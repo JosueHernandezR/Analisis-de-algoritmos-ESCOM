@@ -1,3 +1,8 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 7 Strassen
+
 """
 Descripción: este módulo solo almacena las variables globales del programa:
         parámetros: Lista que almacena los parámetros de los puntos a trazar para el algoritmo de

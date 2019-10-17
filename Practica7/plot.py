@@ -1,3 +1,9 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 7 Strassen
+
+
 import matplotlib.pyplot as plt
 import variables_globales as gb
 import numpy as np
