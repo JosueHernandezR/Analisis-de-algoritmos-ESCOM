@@ -1,3 +1,7 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 8
 """
 ANÁLISIS DE ALGORITMO:
 Descripción: implementa el método __main__ y contiene una función llamada printer
@@ -55,10 +59,11 @@ def printer ( m, s, p ):
 
 if ( __name__ == "__main__" ):
     #p = [ rnd.randint ( 2, 50 ) for i in range ( 2 ** rnd.randint ( 1, 4 ) ) ]
-    #p = [ 30, 35, 15, 5, 10, 20, 25 ]
+    p = [ 30, 35, 15, 5, 10, 20, 25 ]
     #p = [ 4, 10, 3, 12, 20, 7 ]
     #p = [ 3, 5, 2, 2 ]
-    p = [ 10, 8, 12, 2, 5 ]
+    #p = [ 10, 8, 12, 2, 5 ]
+    #p = [23,12,31,11,10]
     m, s = matrix_chain_order ( p )
     print_optimal_parens ( s, 1, len ( p ) - 1 )
     printer ( m, s, p )
