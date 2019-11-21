@@ -1,3 +1,8 @@
+#Análisis de Algoritmos 3CV2
+# Alan Romero Lucero
+# Josué David Hernández Ramírez
+# Práctica 10
+
 def decode ( dictionary, binary ):
     result = [ ]
     length = binary.bit_length ( ) - 1
