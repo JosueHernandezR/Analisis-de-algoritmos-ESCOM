@@ -1,0 +1,2 @@
+parametros = [ ]
+t = 0
